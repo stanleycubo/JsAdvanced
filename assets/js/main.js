@@ -33,6 +33,7 @@ async function showNewsDetails() {
       const { title, url, time } = newsData;
 
       const newsElement = document.createElement("div");
+      newsElement.classList.add("article");
       newsElement.innerHTML = `
         <h3>${title}</h3>
         <p><a href="${url}" target="_blank">${url}</a></p>

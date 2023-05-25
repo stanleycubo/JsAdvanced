@@ -16,8 +16,6 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Questa è un applicazione per democratizzare la diffusione di informazioni in ambito tech attraverso l'utilizzo delle API del servizio Hacker News.
 L'app mostra inizialmente 10 news ed ha in basso un bottone per caricarne altre 10, si può cliccare sulle notizie per essere rimandati al sito originale della notizia
 

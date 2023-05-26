@@ -33,10 +33,9 @@ async function showNewsDetails() {
       const { title, url, time } = newsData;
 
       const newsElement = document.createElement("div");
-      newsElement.classList.add("article");
+      newsElement.classList.add("news-item");
       newsElement.innerHTML = `
-        <h3>${title}</h3>
-        <p><a href="${url}" target="_blank">${url}</a></p>
+        <h3><a href="${url}" target="_blank">${title}</a></h3>
         <p>${new Date(time * 1000).toLocaleString()}</p>
       `;
       newsContainer.appendChild(newsElement);
